@@ -56,7 +56,7 @@ client.on("message", function(message) {
 	else if(command === "react") {	
 		
 		//https://unicode.org/emoji/charts/full-emoji-list.html ----- ce lien sert a capturer les emotes deja présent sur discord part leurs unicode		
-		message.reply(`me faite pas chier je test un truc avec les emoji pour un truc beaucoup plus gros !`).then(message => {
+		message.reply(`me faite pas chier je test un truc avec les emoji !`).then(message => {
 			message.react("👍");
 			message.react("👎");
 			message.react("<play:854299384022958100>");
@@ -151,11 +151,11 @@ client.on("message", function(message) {
 				}
 
 				//cette commande sert de "profile" a un ami (commande qu'on m'a demander de faire)
-				else if (command === "kiki") {
+				else if (command === "profile") {
 
 					
 					const attachment = new Discord
-					.MessageAttachment('./kiki.png', 'kiki.png');
+					.MessageAttachment('./public/kiki.png', 'kiki.png');
 					
 					//creation de la "div" et mise en page
 					const embed = new Discord.MessageEmbed()
