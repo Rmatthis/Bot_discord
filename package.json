@@ -1,0 +1,17 @@
+{
+  "name": "bot_discord",
+  "version": "1.0.0",
+  "description": "je vais (je pense) faire de ce bot un bot pour des communauté de Boost de joueurs avec plusieurs versions pour plusieurs jeux multijoueur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "$beweb"
+  ],
+  "author": "\"Matthis \\ <fahrelight@gmail.com\\>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
